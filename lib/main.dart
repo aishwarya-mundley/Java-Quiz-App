@@ -40,7 +40,8 @@ class _QuizPageState extends State<QuizPage> {
 
       Alert(
         context: context,
-        type: AlertType.success,
+        type: AlertType.none,
+        image: Image.asset('assets/success.png'),
         style: AlertStyle(
           animationType: AnimationType.fromBottom,
           animationDuration: const Duration(milliseconds: 400),
